@@ -1,0 +1,33 @@
+//
+//  PrefixHeader.pch
+//  app
+//
+//  Created by apple on 2020/12/28.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <YZFrame.h>
+
+#pragma mark - 全局宏
+#import "ColorMarcos.h"
+
+#pragma mark - 第三方
+#import <AFNetworking.h>
+#import <ReactiveObjC.h>
+#import <Masonry.h>
+#import <MJRefresh.h>
+#import <UIImageView+WebCache.h>
+//#import <MBProgressHUD.h>
+#import <SDCycleScrollView.h>
+#import <CustomIOSAlertView.h>
+#import <UIAlertController+Blocks.h>
+
+#pragma mark - 扩展
+#import "UIViewController+YZ.h"
+
+#endif /* PrefixHeader_pch */
